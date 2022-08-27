@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0.5rem;
+    background-color: inherit;
+}
+
+.navbar ul {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 14px;
+}
+
+.navbarLink {
+    color: rgb(37, 36, 34);
+    transition: all 100ms;
+}
+
+.navbarLink:hover {
+    color: rgb(125, 126, 117);
+}

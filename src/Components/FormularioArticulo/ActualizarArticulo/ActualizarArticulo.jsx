@@ -8,7 +8,7 @@ import { TYPES } from '../../../types/types'
 const BASE_URL = 'http://localhost:4000/api/articulos'
 
 export const ActualizarArticulo = () => {
-  const { updateProduct, dispatch, productos } = useContext(ProductoContext)
+  const { dispatch } = useContext(ProductoContext)
   const { id } = useParams()
   const [product, setProduct] = useState({})
 
